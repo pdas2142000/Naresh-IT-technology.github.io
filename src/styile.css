@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+  
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 25px;
+    /* border: 2px solid black; */
+    line-height: 150px;
+    font-weight: 600;
+    font-size: 30px;
+    /* padding:; */
+}
+/* navbar */
+#nav nav{
+    width: 97%;
+    height: 60px;
+    background-color: #343434;
+    margin-left: 1.8%;
+    border-radius: 5px;
+}
+#nav nav ul{
+    /* display: flex; */
+    line-height: 60px;
+    /* margin-left: px; */
+}
+#nav nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 22px;
+  
+   
+}
+#nav nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 17px;
+   
+}
+#nav nav ul li a i{
+    font-size: 12px;
+}
+#nav nav ul li a:hover{
+    color: white;
+}
+#box{
+    position: absolute;
+    left: 89%;
+    top: 21.6%;
+
+}
+#box button{
+    background-color: #343434;
+}
+#item{
+    margin-top: 20%;
+}
+.carousel{
+    margin-top: 25px;
+}
+/* two button */
+
+#buttons{
+    top: 102%;
+    left: 40%;
+}
+#buttons_two{
+    margin-top: 6%;
+    margin-left: 42%;
+}
+/* #text{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -15%;
+    
+}
+#text p{
+    text-align: center;
+    width: 18%;
+    background-color: #e38d13;
+    padding: 10px;
+    display: block;
+    margin-left: 46%;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+}
+#text .text_item{
+    margin-top: -25px;
+    width: 14%;
+    margin-left: 48%;
+    background-color: #28a4c9;
+}
+#text .text_item:hover{
+    background-color:#2491b3;
+}
+#text p:hover{
+    background-color:#b46d0a;
+} */
+.type{
+    width: 100%;
+    /* display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+}
+.item{
+    width: 50%;
+    /* display: flex;
+    margin-left: 25%;
+    font-size: 15px; */
+}
+
+.bar hr{
+    height: 1.9px;
+  
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 2%;
+
+}
+#students{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    margin-top: 7%;
+
+}
+/* #students table th{
+    text-align: center;
+} */
+/* #students table  td{
+    text-align: center;
+} */
+/* .batch span img{
+    padding: 3px;
+    border: 2px solid rgb(236, 234, 234);
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 350px;
+    height: 150px;
+    transition: 0.2s ease-in;
+} */
+.container .row #cont_table{
+    margin-left: -5%;
+}
+.batch span img{
+     transition: 0.3s ease-in;
+}
+
+.batch span img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+/* cards */
+#cards{
+    /* margin-top: 6%; */
+    width: 100%;
+}
+#cards .hade{
+    /* text-align: center; */
+    font-size: 30px;
+}
+#cards .hade:hover{
+    color: rgba(185, 29, 29, 0.884);
+}
+#cards .jobs{
+    margin-top: 5%;
+}
+#cards .jobs img{
+    /* border-radius: 50%; */
+    width:130px;
+    height:130px;
+}
+.box{
+    /* display: flex;
+    justify-content: center ;
+    align-items: center; */
+    margin-left: -10%;
+    margin-top: 3%;
+}
+.box .box_item img{
+    margin-bottom: 30px;
+    transition: 0.2s all ease-in;
+}
+.box .box_item img:hover{
+    transform: scale(1.1);
+    transition: 0.2s all ease-in;
+}
+.box .box_item{
+    margin-left: 10%;
+    /* text-align: center; */
+}
+.box_item .jobs span:hover{
+    color: rgba(185, 29, 29, 0.884);
+}
+.box_item .jobs h2:hover{
+    color: rgba(185, 29, 29, 0.884);
+}
+/* Information */
+#went_job{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+#second_que{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+#information{
+    margin-top: 5%;
+}
+.line_hr hr{
+    height: 2px;
+    width: 45%;
+    margin-top: 40px;    
+}
+.second img{
+    width: 280px;
+    height: 140px;
+    margin-top: 10%;
+    margin-left: 7%;
+    transition: all 0.2s ease-in;
+}
+.second img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+.second_line hr{
+   height: 2px;
+   width: 50%;
+   margin-left: 50%;
+   margin-top: 40px;    
+}
+/* buttons */
+
+.btn{
+    margin-top: 6%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* width: 100%; */
+}
+.btn .btns{
+    padding: 5px 18px;
+    font-size: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn .one{
+    background-color: #28a4c9;
+    color: #fff;
+}
+.btn .two{
+    background-color: #c7c4c4;
+    border-color: #dbdbdb;
+}
+.btn .two:hover{
+    background-color: #a5a2a2;
+
+}
+.btn .one:hover{
+    background-color: #2491b3;
+}
+
+/* student department */
+.student{
+    margin-top: 5%;
+}
+h3{
+    text-align: center;
+}
+h3:hover{
+   color: rgba(185, 29, 29, 0.884);
+}
+.department{
+    margin-top: 5%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.feature-icon .icons i{
+    margin-left: 38%;
+    font-size:38px ;
+   
+}
+.student_box h2{
+    font-size: 27px;
+}
+.student_box p{
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 600;
+}
+.student_box h2:hover{
+    color:rgba(185, 29, 29, 0.884) ;
+}
+.student_box p:hover{
+    color:rgba(185, 29, 29, 0.884) ;
+}
+.feature-icon .icons i:hover{
+    color:rgba(185, 29, 29, 0.884) ;
+    font-size: 36px;
+    transition: 0.1s ease-in;
+}
+/* services */
+
+.services{
+    margin-top: 5%;
+}
+.services_box{
+    margin-top: 6%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.card img{
+    padding: 10px;
+}
+.services_item{
+    box-shadow: 3px 9px 34px -2px rgba(0,0,0,0.7);
+-webkit-box-shadow: 3px 9px 34px -2px rgba(0,0,0,0.7);
+-moz-box-shadow: 3px 9px 34px -2px rgba(0,0,0,0.7);
+transition: all 0.2s ease-in;
+}
+.services_item:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+#footer{
+    margin-top: 10%;
+    border: 0.2px solid gray;
+    border-radius: 5px;
+}
+/* footer */
+
+#newsletter1{
+    /* height:%; */
+    margin-top: 6.3%;
+}
+.btn{
+    height: 5%;
+    margin-top: 6.2%;
+}
+.list-unstyled li i{
+    font-size: 25px;
+    margin-left: 25px;
+}
+#hover .nav-item i:hover{
+    color:rgba(185, 29, 29, 0.884);
+}
+#hover .nav-item .span:hover{
+    color:rgba(185, 29, 29, 0.884);
+}
+#second_hover .nav-item .span:hover{
+    color:rgba(185, 29, 29, 0.884);
+}
+#thred_hover .nav-item .span:hover{
+    color:rgba(185, 29, 29, 0.884);
+}
+#footer li a i:hover{
+    color:rgba(185, 29, 29, 0.884);
+}
+#footer p:hover{
+    color:rgba(185, 29, 29, 0.884);
+}

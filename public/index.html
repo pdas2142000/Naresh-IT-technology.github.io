@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/styile.css">
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+  <title>Our First project | Naresh IT</title>
+</head>
+
+<body>
+  <header id="header">
+    <p class="text-center">Naresh Institute and Technologies</p>
+  </header>
+  <div class="container-fluid" id="content">
+    <div id="nav">
+      <nav>
+        <ul class="d-flex">
+          <li><a class="text-decoration-none" href="#"><i class="bi bi-house-fill"></i> &nbsp;Home</a></li>
+          <li><a class="text-decoration-none" href="about.html" target="_blank"><i
+                class="bi bi-sticky"></i>&nbsp;About</a></li>
+          <li><a class="text-decoration-none" href="services.html" target="_blank"><i
+                class="bi bi-patch-question-fill"></i>&nbsp;Service</a></li>
+          <li><a class="text-decoration-none" href="contact.html" target="_blank"><i
+                class="bi bi-person-lines-fill"></i>&nbsp;Contact Us</a></li>
+        </ul>
+
+      </nav>
+      <div class="dropdown" id="box">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+          data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-box-arrow-in-right"></i>&nbsp;
+          Sign In
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item text-decoration-none" href="signin.html" target="_blank"><i
+                class="bi bi-box-arrow-in-right"></i>&nbsp; Sign in</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="../public/signup.html" target="_blank"><i
+                class="bi bi-person-check-fill"></i>&nbsp; Sign up</a></li>
+          <li><a class="dropdown-item text-decoration-none" href="../public/password.html" target="_blank"><i
+                class="bi bi-person-check-fill"></i> &nbsp;Change Password</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="../Images/a2.jpg" class="d-block w-100 " height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../Images/a1.jpg" class="d-block w-100" height="480px" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../Images/a3.jpg" class="d-block w-100" height="480px" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div id="text">
+      <p>Show me what's in this packag</p> <br>
+      <p class="text_item">What's is the packag</p>
+    </div> -->
+    <div class=" position-absolute" id="buttons">
+      <button type="button" class="btn btn-warning">Show me what's in this packag</button>
+    </div>
+    <div id="buttons_two" style="margin-top: 35px;">
+      <button type="button" class="btn btn-info">What's is the packag</button>
+    </div>
+    <div class="type d-flex justify-content-center mt-4">
+      <div class="item ">
+        <p>
+          * A package is a small container in which a quantity of something is sold. Packages are either small boxes
+          made of thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is packaged, it is
+          put into containers to be sold.</p>
+
+      </div>
+    </div>
+    <div class="bar">
+      <hr style="color: black;">
+    </div>
+
+    <!-- <div id="students">
+      <div class="courcrs">
+        <table class="table">
+          <thead>
+            <tr>
+
+              <th scope="col" class="text-center">Department</th>
+              <th scope="col" class="text-center">Start</th>
+              <th scope="col" class="text-center">Included</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+              <td class="text-center">M.Tech</td>
+              <td class="text-center">2003</td>
+              <td class="text-center"><i class="bi bi-check"></i></td>
+            </tr>
+            <tr>
+
+              <td class="text-center">B.Tech</td>
+              <td class="text-center">2004</td>
+              <td class="text-center"><i class="bi bi-check"></i></td>
+            </tr>
+            <tr>
+
+              <td colspan="1" class="text-center">MCA</td>
+              <td class="text-center">2006</td>
+              <td class="text-center" ><i class="bi bi-check"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="batch">
+        <span>
+          <img src="../Images/a2.jpg" alt="photo" width="280" height="150px">
+        </span>
+      </div>
+    </div> -->
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-8">
+          <table class="table me-4" id="cont_table">
+            <thead>
+              <tr>
+
+                <th scope="col" class="text-center">Department</th>
+                <th scope="col" class="text-center">Start</th>
+                <th scope="col" class="text-center">Included</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+
+                <td class="text-center">M.Tech</td>
+                <td class="text-center">2003</td>
+                <td class="text-center"><i class="bi bi-check"></i></td>
+              </tr>
+              <tr>
+
+                <td class="text-center">B.Tech</td>
+                <td class="text-center">2004</td>
+                <td class="text-center"><i class="bi bi-check"></i></td>
+              </tr>
+              <tr>
+
+                <td colspan="1" class="text-center">MCA</td>
+                <td class="text-center">2006</td>
+                <td class="text-center"><i class="bi bi-check"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-4 batch  " id="image">
+          <span>
+            <img src="../Images/a2.jpg" class="border p-1 ms-4 mt-4  " alt="photo" width="280" height="150px">
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div id="cards">
+      <div class="hade fw-bold text-center">what is the job</div>
+      <div class="box d-flex justify-content-center align-items-center">
+        <div class="box_item text-center">
+          <div class=" jobs">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcAtisOVm2AT7qHg34DN0ozNSNG3-vbJv0cA&usqp=CAU"
+              class="rounded-circle" alt="">
+
+            <h2>Types of jobs</h2>
+            <span>Volcanologist.</span><br>
+            <span>Quantum physicist.</span><br>
+            <span>Oceanographer.</span><br>
+            <span>Biomedical engineer.</span><br>
+          </div>
+        </div>
+        <div class="box_item text-center">
+          <div class=" jobs">
+            <img src="../Images/AI.jfif " class="rounded-circle" alt="">
+
+            <h2>Artificial Intelligence (AI)</h2>
+            <span>Reactive Machines.</span><br>
+            <span>Limited Memory.</span><br>
+            <span>Theory of Mind.</span><br>
+            <span>Artificial Narrow Intelligence (ANI)</span><br>
+          </div>
+        </div>
+        <div class="box_item text-center">
+          <div class=" jobs">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb6veDI7h7d3iu2xnrRnGomZiPkcyet6T7Mg&usqp=CAU"
+              class="rounded-circle" alt="">
+
+            <h2>Data Scientist</h2>
+            <span>Quantitative and Exploratory</span><br>
+            <span>Marketing Scientists</span><br>
+            <span>Research Scientists</span><br>
+            <span>Operational Data Scientists </span><br>
+          </div>
+        </div>
+        <div class="box_item text-center">
+          <div class=" jobs">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUw4gw9oINTKgTP6It7EgOorKp1pfVTfDn-bVd_blRjd7KztRaXrA-wfYTLidoiZ2Owv4&usqp=CAU"
+              class="rounded-circle" alt="">
+
+            <h2>Ethical Hacking </h2>
+            <span>White Hat Hackers.</span><br>
+            <span>Black Hat Hackers.</span><br>
+            <span>Gray Hat Hackers.</span><br>
+            <span>Green Hat Hackers.</span><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="information">
+      <!-- <div id="went_job">
+        <div class="first">
+          <span class="one">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Capture-one-logo.svg/1200px-Capture-one-logo.svg.png" alt="" width="70px" height="70px">
+          </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus">  Why do you want this job?</span><br><br>
+          <span class="art"> The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. Find out what you know about the company, industry, position (and if you took the time to research).</span>
+
+          <div class="line_hr">
+            <hr>
+          </div>
+          
+        </div>
+        <div class="second">
+          <img src="../Images/ind1.jpg" alt="">
+        </div>
+      </div>  -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <span class="one">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Capture-one-logo.svg/1200px-Capture-one-logo.svg.png"
+                alt="" width="70px" height="70px">
+            </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus"> Why do you want this job?</span><br><br>
+            <span class="art"> The hiring manager wants to: Learn about your career goals and how this position fits
+              into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if
+              hired. Find out what you know about the company, industry, position (and if you took the time to
+              research).</span>
+
+            <div class="line_hr">
+              <hr>
+            </div>
+          </div>
+          <div class="col-sm-4 second">
+            <img src="../Images/ind1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <!-- <div id="second_que">
+        
+        <div class="second">
+          <img src="../Images/ind2.png" alt="">
+        </div>
+        <div class="first">
+          <span class="one">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Circle-two.svg/1200px-Circle-two.svg.png" alt="" width="70px" height="70px">
+          </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus"> Do you need a resume for your first job?</span><br><br>
+          <span class="art">When writing your first resume with no work experience, it's appropriate to include casual jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and the way you present yourself, your skills, and your assets to a hiring manager begins with a strong resume..</span>
+
+          <div class="second_line">
+            <hr>
+          </div>
+          
+        </div>
+      </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 second">
+            <img src="../Images/ind2.png" alt="">
+          </div>
+          <div class="col-sm-8">
+            <div class="first">
+              <span class="one">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Circle-two.svg/1200px-Circle-two.svg.png"
+                  alt="" width="70px" height="70px">
+              </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus"> Do you need a resume for your first job?</span><br><br>
+              <span class="art">When writing your first resume with no work experience, it's appropriate to include
+                casual jobs like babysitting, pet sitting, lawn mowing, and shoveling snow. All experience counts and
+                the way you present yourself, your skills, and your assets to a hiring manager begins with a strong
+                resume..</span>
+
+              <div class="second_line">
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+
+        <div id="went_job">
+          <div class="first">
+            <span class="one">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2fy35ihSugYjeRfiO8kc4WngQEmle1sk5VQ&usqp=CAU"
+                alt="" width="70px" height="70px">
+            </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus"> Why do you want this job?</span><br><br>
+            <span class="art"> The hiring manager wants to: Learn about your career goals and how this position fits
+              into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if
+              hired. Find out what you know about the company, industry, position (and if you took the time to
+              research).</span>
+
+            <div class="line_hr">
+              <hr>
+            </div>
+
+          </div>
+          <div class="second">
+            <img src="../Images/ind3.png" alt="">
+          </div>
+        </div> <br><br>
+
+        <div id="second_que">
+
+          <div class="second">
+            <img src="../Images/ind4.jpg" alt="">
+          </div>
+          <div class="first">
+            <span class="one">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThquCkFkRvg6nlSZ61rQynkKXPeJiYOMjLJw&usqp=CAU"
+                alt="" width="100px" height="100px">
+            </span> &nbsp;&nbsp;&nbsp;&nbsp;<span class="qus"> Why do you think you can do well in this
+              job?</span><br><br>
+            <span class="art">I believe I will do well in this job because I have the relevant skills and it is my field
+              of interest. ... I have a confident that I can do well in the job because of self confidence, positive
+              attitude. Previous success also brings self confidence for the future success.</span>
+
+          </div>
+
+        </div>
+        <div class="btn d-flex justify-content-center align-items-center">
+          <div class="btn_one "><button class="btns one">Request call back</button></div>
+          <div class="btn_two "><button class="btns two">FAQ'S</button></div>
+        </div>
+
+        <div class="student">
+          <h3 class="fw-bold text-center">Student Department Details</h3>
+          <div class="department d-flex justify-content-around">
+            <div class="student_box">
+              <div class="feature col">
+                <div class="feature-icon ">
+                  <span class="icons"><i class="bi bi-hourglass-split"></i></span>
+                </div> <br>
+                <h2>Average Salary Offered</h2>
+                <p class="text-center">INR 7 L per annum <br> per annum </p>
+              </div>
+            </div>
+            <div class="student_box">
+              <div class="feature col">
+                <div class="feature-icon ">
+                  <span class="icons"> <i class="bi bi-calendar2-week-fill"></i></span>
+                </div><br>
+                <h2>Duration</h2>
+                <p class="text-center">2 <br> year </p>
+
+              </div>
+            </div>
+            <div class="student_box">
+              <div class="feature col">
+                <div class="feature-icon ">
+                  <span class="icons"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                </div><br>
+                <h2>Average Fees Incurred</h2>
+                <p class="text-center">INR 25,000 - 2 L <br> per annum</p>
+              </div>
+            </div>
+            <div class="student_box">
+              <div class="feature col">
+                <div class="feature-icon ">
+                  <span class="icons"><i class="bi bi-flag-fill"></i></span>
+                </div><br>
+                <h2>Indian Institute of Technology</h2>
+                <p class="text-center">49,035 <br> Kanpur </p>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="services">
+          <h3 class="fw-bold">SERVICES</h3>
+          <div class="services_box d-flex justify-content-around">
+            <div class="services_item">
+              <div class="card" style="width: 18rem;">
+                <img src="../Images/s1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WEB DESIGN !!</h5>
+                  <p class="card-text">Web design encompasses many different skills and disciplines in the production
+                    and maintenance of websites. </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="services_item">
+              <div class="card" style="width: 18rem;">
+                <img src="../Images/s2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IT SERVICES !!</h5>
+                  <p class="card-text">IT as a service (ITaaS) is an operational model where the information technology
+                    (IT) service provider delivers an information technology service to a business.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="services_item">
+              <div class="card" style="width: 18rem;">
+                <img src="../Images/s3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">WEB MARKETING !!</h5>
+                  <p class="card-text">Web marketing is the component of marketing that uses the Internet and online
+                    based digital technologies </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="footer ">
+          <div class="container-fluid "><br><br>
+            <footer class="py-5">
+              <div class="row ">
+                <div class="col-2" id="hover">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" id="link" class="nav-link p-0 text-muted"><i
+                          class="bi bi-facebook"></i> &nbsp; <span class="span">Facebook</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="bi bi-google"></i>
+                        &nbsp;<span class="span"> Google</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><i class="bi bi-twitter"></i>
+                        &nbsp; <span class="span">Twiter</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> <i class="bi bi-youtube"></i>
+                        &nbsp; <span class="span">Youtube</span></a></li>
+                  </ul>
+                </div>
+  
+                <div class="col-2" id="second_hover">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span
+                          class="span">Home</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span
+                          class="span">Features</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span
+                          class="span">Pricing</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span
+                          class="span">FAQs</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span
+                          class="span">About</span></a></li>
+                  </ul>
+                </div>
+  
+                <div class="col-2" id="thred_hover">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span class="span">Name: Naresh
+                          Istitute</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span class="span">Email:
+                          info@nareshit.com</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span class="span">Contact: +91
+                          xxxxxxxxxx</span></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"><span class="span">Address : Sr
+                          nagar, Hyderabad, Telangana, India</span> </a></li>
+  
+                  </ul>
+                </div>
+  
+                <div class="col-4 offset-1">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-flex w-100  gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+  
+              <div class="d-flex justify-content-between py-4 my-4 border-top" id="footer_hover">
+                <p>&copy; 2022 Naresh IT, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook"></i></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram"></i></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+      
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

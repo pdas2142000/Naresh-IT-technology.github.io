@@ -1,0 +1,119 @@
+.bg_image img{
+    width: 900px;
+    height: 600px;
+    margin-left: 300px;
+    /* text-align: center; */
+    
+
+}
+.bg_image{
+    top: 110px;
+    z-index: -1;
+}
+.signin_box{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 250px;
+    box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.83);
+    border-radius: 10px;
+
+}
+.log_image img{
+    margin-top: 45%;
+    width: 170px;
+    height: 170px;
+}
+.signin_box h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #333;
+    
+}
+.login_mode{
+    padding: 20px;
+}
+/* .input button{
+    width: 30px;
+    height: 28px;
+    bottom: 10px;
+    border: 0.1px solid black;
+    position: absolute;
+    left: 606px;
+    top: 337px;
+}
+.input span i{
+    padding: 10px 10px;
+}
+.input{
+    margin-left: 30px;
+    margin-top: 20px;
+    /* text-align: center; */
+/* } */
+.input_one i{
+    padding: 10px 10px;
+}
+.input_one button{
+    width: 30px;
+    height: 28px;
+    bottom: 10px;
+    border: 0.1px solid black;
+    position: absolute;
+    left: 606px;
+    top: 387.9px;
+}
+#btn_star{
+    margin-top: 102px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+   
+}
+#btn_star1{
+    margin-top: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#btn_star2{
+    margin-left:425px;
+    margin-top: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+#btn_star3{
+    margin-top: 102px;
+    margin-left: 425px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+} */
+/* .login_mode{
+    margin-top: 50px;
+} */
+.input label{
+    margin-left: -29px;
+}
+.input button {
+    
+    background-color: #800000;
+}
+.input button i{
+    font-size: 13.5px;
+    color: #fff;
+}
+.input input{
+   padding-left: 5px;
+}
+.input label{
+    margin-bottom: 5px;
+}
+.one_btn button{
+    opacity: 0.7;
+    height: 35px;
+}
+#two_button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}

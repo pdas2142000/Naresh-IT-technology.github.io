@@ -1,0 +1,12 @@
+#about_container{
+    width: 97%;
+    margin-top: 50px;
+}
+#about_container p{
+    font-size: 20px;
+}
+#about_container .about_table .about_btn{
+    margin-top: -2px;
+}
+
+
